@@ -1,0 +1,3 @@
+def parrot_trouble(talking, hour):
+    """Return True if we're in trouble with our loud talking parrot."""
+    return talking and (hour < 7 or hour > 20)
